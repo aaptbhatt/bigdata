@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="AAPT-PC" name="com.cloudxlab.logparsing.SampleTest" tests="1" errors="1" failures="0" skipped="0" time="15.242">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="9"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sbt.log.format" value="true"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre-9.0.4\bin"/><property name="sun.java.command" value="xsbt.boot.Boot test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp437"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.home" value="C:\Program Files\Java\jre-9.0.4"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp437"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="9.0.4+11"/><property name="user.name" value="AAPT"/><property name="file.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\AAPT\AppData\Local\Temp\jna-2001444\jna13885863556210872517.dll"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\AAPT\AppData\Local\Temp\"/><property name="java.version" value="9.0.4"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jre1.8.0_161\bin\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Real\Runtimes\;C:\Program Files (x86)\sbt\bin;D:\Program Files\Java\jdk1.7.0_79\bin;."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="C:\Users\AAPT\.sbt\0.13\java9-rt-ext-oracle_corporation_9_0_4"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="file.encoding.pkg" value="sun.io"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Calcutta"/><property name="os.name" value="Windows 7"/><property name="java.vm.specification.version" value="9"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\AAPT"/><property name="user.language" value="en"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="6.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\AAPT\Documents\GitHub\bigdata\spark\projects\apache-log-parsing_sbt"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="9.0.4+11"/><property name="java.class.version" value="53.0"/>
+    </properties>
+                     <testcase classname="com.cloudxlab.logparsing.SampleTest" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="15.242">
+                                                 <error message="Futures timed out after [10000 milliseconds]" type="java.util.concurrent.TimeoutException">java.util.concurrent.TimeoutException: Futures timed out after [10000 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:107)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:107)
+	at akka.remote.Remoting.start(Remoting.scala:179)
+	at akka.remote.RemoteActorRefProvider.init(RemoteActorRefProvider.scala:184)
+	at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:620)
+	at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:617)
+	at akka.actor.ActorSystemImpl._start(ActorSystem.scala:617)
+	at akka.actor.ActorSystemImpl.start(ActorSystem.scala:634)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:142)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:119)
+	at org.apache.spark.util.AkkaUtils$.org$apache$spark$util$AkkaUtils$$doCreateActorSystem(AkkaUtils.scala:121)
+	at org.apache.spark.util.AkkaUtils$$anonfun$1.apply(AkkaUtils.scala:53)
+	at org.apache.spark.util.AkkaUtils$$anonfun$1.apply(AkkaUtils.scala:52)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1920)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1911)
+	at org.apache.spark.util.AkkaUtils$.createActorSystem(AkkaUtils.scala:55)
+	at org.apache.spark.rpc.akka.AkkaRpcEnvFactory.create(AkkaRpcEnv.scala:253)
+	at org.apache.spark.rpc.RpcEnv$.create(RpcEnv.scala:53)
+	at org.apache.spark.SparkEnv$.create(SparkEnv.scala:254)
+	at org.apache.spark.SparkEnv$.createDriverEnv(SparkEnv.scala:194)
+	at org.apache.spark.SparkContext.createSparkEnv(SparkContext.scala:277)
+	at org.apache.spark.SparkContext.&lt;init&gt;(SparkContext.scala:450)
+	at com.holdenkarau.spark.testing.SharedSparkContext$class.beforeAll(SharedSparkContext.scala:34)
+	at com.cloudxlab.logparsing.SampleTest.beforeAll(spark-testing.scala:6)
+	at org.scalatest.BeforeAndAfterAll$class.liftedTree1$1(BeforeAndAfterAll.scala:212)
+	at org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:210)
+	at com.cloudxlab.logparsing.SampleTest.run(spark-testing.scala:6)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:106)
+	at sbt.TestRunner.run(TestFramework.scala:117)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:262)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:233)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFunction.apply(TestFramework.scala:271)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:281)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:66)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:262)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:271)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:262)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:36)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+</error>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,14 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mcom.cloudxlab.logparsing.SampleTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.concurrent.TimeoutException: Futures timed out after [10000 milliseconds][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.concurrent.Await$.result(package.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.remote.Remoting.start(Remoting.scala:179)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.remote.RemoteActorRefProvider.init(RemoteActorRefProvider.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:620)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:617)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:617)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
